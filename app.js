@@ -6,7 +6,7 @@ const app = express();
 app.use(bodyParser.json());
 
 // URL da API do Bitrix24
-const API_URL = process.env.API_URL || "https://b24-3lnvx7.bitrix24.com.br/rest/1/up280kmevpvj7wto/task.item.update.json";
+const API_URL = process.env.API_URL || "https://b24-3lnvx7.bitrix24.com.br/rest/1/up280kmevpvj7wto/";
 
 // ID da próxima etapa da tarefa principal
 const NEXT_STAGE_ID = process.env.NEXT_STAGE_ID || "next_stage_id";
